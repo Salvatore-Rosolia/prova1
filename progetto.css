@@ -1,0 +1,240 @@
+#barra_navigazione {
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #1c1d21;
+    
+}
+
+div a {
+     font-size: x-large;
+     color:rgb(253, 147, 1);
+    padding-right:  30px;
+    padding-top: 40px;
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: underline;
+}
+nav div{
+    display: flex;
+    justify-content: flex-end;
+
+}
+#Logo img{
+    height: 100px;
+}
+
+
+header {
+    display: flex;
+    height: 600px;
+    justify-content: space-between;
+}
+#Cerca_auto{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    flex-grow: 0;
+}
+#selezione{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: center;
+    padding: 20px;
+}
+
+#selezione p{
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+#selezione span{
+    border: 3px solid rgb(253, 147, 1);
+    background-color: rgb(253, 147, 1);
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+
+#Elenco_info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Elenco_info h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#Elenco_info p{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#Elenco1 div{
+    flex-grow: 1;
+    width: 33%;
+    margin-left: auto;
+    height: 325px;
+}
+
+#Elenco1 {
+    display: flex;
+    height: 325px;
+    flex-grow: 1;
+}
+
+ .elemento > img{ 
+     width: 100%;
+     height: 100%;
+}
+.titolo{
+    display: flex;
+    justify-content: space-around;
+    FONT-SIZE: X-LARGE;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#Elenco_info{
+    display:flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+
+#Elenco_info1 div{
+    height: fit-content;
+}
+
+#Elenco2 {
+    display: flex;
+    height: 325px;
+    flex-grow: 1;
+}
+
+#Elenco2 div{
+    flex-grow: 1;
+    width: 33%;
+    height: 325px;
+}
+
+body{
+    background-color: white;
+}
+
+#perche_sceglierci{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+.mini_box h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.mini_box p{
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 50%;
+}
+
+#box_intera{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+.mini_box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#fine{
+    display:flex;
+    flex-direction: row;
+    height: 150px;
+    flex-grow: 1;
+    background-color: white;
+}
+
+#end_part{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#informazioni {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.rigo p {
+    font-size: x-large;
+}
+
+.rigo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+.rigo img{
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+
+#end_part2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+
+#end_part2 img{
+    height: 60px;
+}
+
+
+@media(max-width: 767px){
+
+#barra_navigazione {
+        
+        height: 100%;
+        width: 340%;
+      
+        
+    }
+
+    #Cerca_auto{
+        margin-bottom: 20px;
+    }
+
+    header img{
+        width: 200%;
+    }
+
+    #selezione{
+        padding-bottom: 50%;
+    }
+
+    .titolo{
+        width: max-content;
+        padding-top: 50px;
+        padding-left: 200px;
+    }
+
+   
+}
+
+
